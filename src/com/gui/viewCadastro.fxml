@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.CadastroController">
+   <children>
+      <TextField fx:id="tfNome" layoutX="136.0" layoutY="23.0" prefHeight="25.0" prefWidth="445.0" style="-fx-background-radius: 12; -fx-border-radius: 12;" />
+      <TextField fx:id="tfPatologia" layoutX="136.0" layoutY="72.0" prefHeight="25.0" prefWidth="445.0" style="-fx-background-radius: 12; -fx-border-radius: 12;" />
+      <TextField fx:id="tfDataNasc" layoutX="136.0" layoutY="122.0" prefHeight="25.0" prefWidth="138.0" style="-fx-background-radius: 12; -fx-border-radius: 12;" />
+      <TextArea fx:id="tfUltimapresc" layoutX="136.0" layoutY="174.0" prefHeight="70.0" prefWidth="445.0" />
+      <TextArea fx:id="tfUltimaposologia" layoutX="136.0" layoutY="265.0" prefHeight="70.0" prefWidth="445.0" />
+      <Label layoutX="14.0" layoutY="27.0" text="Nome:">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="77.0" text="Patologia:">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="127.0" text="Nascimento:">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="185.0" text="Última prescrição:">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="272.0" text="Última posologia:">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="365.0" text="ID:">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblId" layoutX="31.0" layoutY="365.0">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="salvar" layoutX="467.0" layoutY="360.0" mnemonicParsing="false" onAction="#saveBtn" prefHeight="25.0" prefWidth="114.0" style="-fx-background-radius: 12; -fx-border-radius: 12;" text="Salvar" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="11" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="MAIN_CLASS_NAME" value="com.application.Main" />
+    <module name="Gerenciador_Checkup" />
+    <option name="VM_PARAMETERS" value="--module-path C:\Users\guilh\OneDrive\Documents\java-libs\javafx-sdk-11.0.2\lib --add-modules javafx.controls,javafx.fxml " />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <RunnerSettings RunnerId="Run" />
+    <ConfigurationWrapper RunnerId="Run" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
